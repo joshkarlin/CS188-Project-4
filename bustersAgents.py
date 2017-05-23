@@ -162,6 +162,7 @@ class GreedyBustersAgent(BustersAgent):
         livingGhostPositionDistributions = \
             [beliefs for i, beliefs in enumerate(self.ghostBeliefs)
              if livingGhosts[i+1]]
+        "*** YOUR CODE HERE ***"
         
         livingGhostDists = util.Counter()
         # Calculate most likely position of ghost
